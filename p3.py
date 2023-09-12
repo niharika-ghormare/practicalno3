@@ -4,6 +4,7 @@ import mysql.connector
 def book_flight():
     # Get the selected values from the dropdowns
     selected_ticket = ticket_var.get()
+    selected_ticket = ticket_var.get()
     selected_flight = flight_var.get()
     selected_date = date_var.get()
     selected_destination = destination_var.get()
